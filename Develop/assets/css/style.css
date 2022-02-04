@@ -65,6 +65,7 @@ a {
 .float-right {
     float: right;
     margin-left: 25px;
+
 }
 /* Added CSS Selectors for aligning text easier */
 .text-right {
@@ -77,16 +78,14 @@ a {
 
 /* Consolidating CSS Selectors--> SEO, ORM, SSM */
 .content {
-    margin-bottom: 20px;
+    width: 75%;
+    margin: 0 0 20px 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; /* fixed syntax error: Calibri--> 'Calibri' */
     background-color: #0072bb;
     color: #ffffff;
-    width: 75%;
     display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 20px;  /*might need to seperate this margin-bottom and font-size */
     font-size: 35px;
 }
 
@@ -108,7 +107,7 @@ a {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
