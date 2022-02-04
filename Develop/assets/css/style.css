@@ -24,7 +24,8 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+/*Changed from div to nav */ 
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* Changed from div to nav */
+.header nav ul {
     list-style-type: none;
 }
-
-.header div ul li {
+/* Changed from div to nav */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,11 +48,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-.hero {
+.hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -68,12 +66,40 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* Added CSS Selectors for aligning text easier */
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
 
+
+/* Consolidating CSS Selectors--> SEO, ORM, SSM */
 .content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; /* fixed syntax error: Calibri--> 'Calibri' */
+    background-color: #0072bb;
+    color: #ffffff;
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    margin-bottom: 20px;  /*might need to seperate this margin-bottom and font-size */
+    font-size: 35px;
 }
+
+.content img {
+    max-height: 200px;
+}
+
+/* Incresed font-size for better visability */
+.content p {
+    font-size: 30px;
+}
+
+/* Rearranged classes to be more orderly when editting the code */
 
 .benefits {
     margin-right: 20px;
@@ -132,60 +158,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
