@@ -17,7 +17,7 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 60px; /* increased font-size from 48px to 60px to be more visible */
 }
 
 .header h1 .seo {
@@ -30,7 +30,7 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;  /* increased font-size by 5px for better visability */
 }
 
 /* Changed from div to nav */
@@ -93,52 +93,26 @@ a {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* consolidated benefits classes to be less repetitive */
+.benefits-subheading {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* increased font-size */
+.benefits-subheading h3 {
+    font-size: 30px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits-subheading img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* incresed font-size */
+.benefits-subheading p {
+    font-size: 22px;
 }
 
 /* Consolidating CSS Selectors--> SEO, ORM, SSM */
@@ -161,7 +135,7 @@ a {
 
 /* Incresed font-size for better visability */
 .content p {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 
