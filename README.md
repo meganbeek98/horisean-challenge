@@ -1,22 +1,44 @@
-horisean-challenge
-<HTML> and <CSS> files
+# horiseon-webpage-accessibility
+### HTML 
+### CSS
 
-In this project I have added more Functionality and Accessibility features to the webpage for:
-    Horisean- Social Solutions Services, Inc.
+</br>
 
-<!-- Some Functionality and Accessibility features I have added within the HTML and CSS code are as follows: -->
-    - added a necessary title for the browser to show (there was no title before)
-    - added Semantic HTML elements for smoother and more descriptive human- and machine-reading of the code (i.e.- replaced many <div> elements with more decriptive elements)
-    - added descriptive and concise alternatives (alt="") for a screen-reader/narrator to read (or not to read) to the user when scanning images on the page
-    - changed many font-sizes for better visability
-    - added some CSS selectors for certain issues (i.e.- text-align)
-    - renamed existing CSS selectors to names that are more simple and logical
-    - grouped together many CSS selectors, eliminating some very repetitive code
-    - added id's for better navigation
-    - added notes and indentation where needed for main section's beginning and end points-- making it easier to edit the code in the future if needed
-<!-- additions are noted throughout the HTML and CSS code-->
+## 💡 In this project I have added more Functionality⚙️ and Accessibility♿️🧏🧑‍🦯 features to the webpage for:
+    Horiseon- Social Solutions Services, Inc.
+    © 2019 Horiseon Social Solution Services, Inc.
 
-I owe credit and thanks to the following sources for helping me with my project:
+</br>
+
+## Some Functionality and Accessibility features I have added within the HTML and CSS code are as follows:
+    
+### ✖️ added a necessary title for the browser to show
+
+### ✖️ added Semantic HTML elements for smoother and more descriptive human- and machine-reading of the code
+
+### ✖️ added descriptive and concise alternatives for a screen-reader to read (or not to read) to the user when scanning images on the page
+
+### ✖️ changed many font-sizes for better visability
+
+### ✖️ added some CSS Selectors/Rules for certain issues
+
+### 🤝 consolidated multiple unnecessary CSS Selectors
+
+### ❌ eliminated some very repetitive code
+
+### 📝 renamed existing CSS Selectors to names that are more logical
+
+### 🔗 used identifiers for better navigation
+
+### ✖️ added indications (in the form of comments) for the different section's beginning and end points-- making it easier to edit the code in the future if needed
+
+</br>
+
+### 📑 additions, edits, etc., are commented throughout the HTML and CSS code
+
+</br>
+
+### 📚 I owe credit and thanks to the following resources for helping me with my project:
     - MDN Web Docs, for the many pages I referenced regarding the topic of "Accessibility" and "CSS Posistioning"
     - Many AskBCS Learning Assistants in Slack, for solutions to issues resulting from code errors
     - My instructor Slavic, for the knowledge I gained from his classes
@@ -24,5 +46,7 @@ I owe credit and thanks to the following sources for helping me with my project:
     - Youtube, for many intructional "how-to" videos
     - Lastly, and certainly not least-- Google, for all the questions I needed quick answers for
 
+</br>
 
-- Submitted by: Megan Beekman, Feb. 2022.
+#### 👩‍💻 By: Megan Beekman
+#### 📅 Feb. 2022.

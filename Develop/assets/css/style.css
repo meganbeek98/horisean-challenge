@@ -48,6 +48,16 @@ a {
     text-decoration: none;
 }
 
+/* added this class for screen-reader to describe the image, but hide the text visually from the page */
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
 .hero-image {
     height: 800px;
     width: 100%;
@@ -135,7 +145,7 @@ a {
 
 /* Incresed font-size for better visability */
 .content p {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 
